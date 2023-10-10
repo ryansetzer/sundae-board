@@ -1,0 +1,10 @@
+{
+  "radarr": {
+    "api": 1234,
+    "logo": "radarr"
+  },
+  "sonarr": {
+    "api": 4321,
+    "logo": "sonarr"
+  }
+}
