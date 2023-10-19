@@ -1,10 +1,12 @@
-{
-  "radarr": {
-    "api": 1234,
-    "logo": "radarr"
-  },
-  "sonarr": {
-    "api": 4321,
-    "logo": "sonarr"
-  }
-}
+[
+   {
+      "name": "Radarr",
+      "ip": "192.168.1.3",
+      "port": 7676
+   },
+   {
+      "name": "Sonarr",
+      "ip": "192.168.1.3",
+      "port": 8989
+   }
+]

@@ -4,12 +4,19 @@
    <head>
       <meta charset="UTF-8">
       <title>Web Dashboard</title>
-      <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/> 
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/> 
    </head>
    <body>
       <h1>{{ hostname }}'s Dashboard</h1>
       {% for app in app_list %}
-      <h2>{{ app }}</h2>
+      <div class="widget">
+         <h2>{{ app.name }}</h2>
+            <ul class="subinfo">
+               <li class="detail">logo: {{ app.logo }}</li>
+               <li class="detail">logo: {{ app.ip }}</li>
+               <li class="detail">logo: {{ app.port }}</li>
+            </ul>
+      </div>
       {% endfor %}
    </body>
 </html>

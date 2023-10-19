@@ -1,0 +1,30 @@
+@font-face {
+   font-family: "JetBrains Mono";
+   src: url("../fonts/JetBrainsMono-Regular.ttf") format('truetype');
+}
+
+body {
+   background: #fe457c;
+   color: white;
+   font-family: 'JetBrains Mono'
+}
+
+h1 {
+   color: blue;
+}
+
+.widget {
+   background: rgba(255, 255, 255, 0.25);
+   border-radius: 15px;
+}
+
+.subinfo {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+.detail {
+   background: rgba(0, 0, 0, 0.25);
+   border-radius: 5px;
+}
